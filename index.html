@@ -20,9 +20,9 @@
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@0;1&family=Pacifico&display=swap" rel="stylesheet">
-	<!-- <link rel="stylesheet/less" type="text/less" href="assets/less/style.less"> -->
-	<!-- <script src="//cdn.jsdelivr.net/npm/less"></script> -->
-	<link rel="stylesheet" type="text/css" href="assets/less/style.css">
+	<link rel="stylesheet/less" type="text/less" href="assets/less/style.less">
+	<script src="//cdn.jsdelivr.net/npm/less"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="assets/less/style.css"> -->
 <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
 <script type="" src="assets/js/owl.js"></script>
@@ -37,16 +37,16 @@
 		<header class="header">
 			<div class="container-fluid">
 				<div class="row header__content">
-					<div class="col-md-6 col-sm-8 col-8 header__content__left">
+					<div class="col-md-8 col-sm-8 col-8 header__content__left">
 						<p><i class="fa fa-bookmark-o" aria-hidden="true"></i>Welcome to Franco - an e-Commerce PSD Template!</p>
 					</div>
-					<div class="col-md-6 col-sm-4 col-4 header__content__right">
+					<div class="col-md-4 col-sm-4 col-4 header__content__right">
 						<ul>
 							<li>
 								<i class="fa fa-cog" aria-hidden="true"></i>
 								<a href="">Shop Setting</a>
 							</li>
-							<li style="transform: translateX(29px);">
+							<li class="memberlogin" >
 								<i class="fa fa-lock" aria-hidden="true"></i>
 								<a href="">Member Login</a>
 							</li>
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 				<div class="row header__menu d-flex align-items-center">
-					<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+					<div class="col-4 col-sm-2 col-md-2 col-lg-2 col-xl-2">
 						<div class="header__menu__logo">
  							 <img  src="assets/images/logo.png">
 	 						<button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation " >
@@ -62,7 +62,7 @@
  							 </button>
 						</div>
 					</div>
-					<div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 nav--fix ">
+					<div class="col-4 col-sm-8 col-md-8 col-lg-8 col-xl-8 nav--fix ">
 						<nav class="navbar navbar-expand-lg  d-flex align-items-center ">
 						  <div class="container-fluid" >
 						   <div class="  header__menu__nav collapse navbar-collapse"  id="navbarNav" >
@@ -100,9 +100,9 @@
 						  </div>
 						</nav>
 					</div>
-					<div class="col-sm-2 col-2 header__menu__item">
+					<div class="col-sm-2 col-4 header__menu__item">
 						<a href="#"><img src="assets/images/cart.png"></a>
-						<a href="#"><img src="assets/images/wishlist.png"></a>
+						<a href="#"><img class="header__menu__item--heart" src="assets/images/wishlist.png"></a>
 					</div>
 					
 				</div>
@@ -426,7 +426,7 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="row footer__content">
-					<div class="col-md-4 col-sm-4 col-12 footer__content__left ">
+					<div class="col-md-4 col-sm-12 col-12 footer__content__left ">
 						<h2>About Franco</h2>
 						<p><a href="#">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris vulputate mi, eu interdum nunc diam at ipsum.</a></p>
 						<div class="col-md-12 col-sm-12 footer__content__left__item">
@@ -436,7 +436,7 @@
 							<i class="fa fa-dribbble" aria-hidden="true"></i>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-4 col-12">
+					<div class="col-md-4 col-sm-12 col-12">
 						<h2>Navigation</h2>
 						<div class="row">
 							<div class="col-md-6 col-sm-6 col-6 footer__content__between">
@@ -461,11 +461,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-4 col-12">
+					<div class="col-md-4 col-sm-12 col-12">
 						<div class="footer__content__right">
 							<h2>Shop Location</h2>
 							<ul>
-								<li style="transform: translate(0px, 2px);"><i class="fa fa-map-o" aria-hidden="true"></i><a style="margin-left: 14px;letter-spacing: 0.1px;" href="#">500 Hennessy Road</a></li>
+								<li style="transform: translate(0px, 1px);"><i class="fa fa-map-o" aria-hidden="true"></i><a style="margin-left: 14px;letter-spacing: 0.1px;" href="#">500 Hennessy Road</a></li>
 								<li><a style="margin-left: 30px; letter-spacing: 0.17px" href="#">Causeway Bay, Hong Kong</a></li>
 								<li><i class="fa fa-phone" aria-hidden="true"></i><a style="margin-left: 19px;" href="#">+1 23456789</a></li>
 								<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#">contact@yourdomain.com</a></li>

@@ -9,7 +9,7 @@ $(document).ready(function(){
         480:{
             items:2
         },
-        767:{
+        768:{
             items:3
         },
         1000:{

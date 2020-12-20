@@ -11,8 +11,30 @@
 		width: 100%;
 	}
 }
+@media screen and (max-width: 1554px) and (min-width: 320px) {
+	.banner__right--top__content {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+	.banner__right--bottom__content {
+	    top: 50%;
+	    left: 35%;
+	    transform: translate(-50%, -50%);
+	}
+	.footer__content__left p {
+		width: 100%;
+	}
+	.footer__content__left h2 {
+    	width: 100%;
+	}
+}
  @media screen and(min-width: 320px) {
 	.header{
+		&__menu--logo{
+			position:unset;
+		}
 		position:relative;
 		&__content{
 			&__right{
@@ -36,6 +58,7 @@
 			}
 		}
 		&__menu{
+			position:relative;
 			&__item{
 				padding-left: 0;
 				a{
@@ -59,7 +82,9 @@
 				img{
 					padding:0;
 					width: 147px;
-				    transform: translate(50%, -18%);
+				    top: 50%;
+    				left: 50%;
+   					transform: translate(-50%, -50%);
 				    position: absolute;
 				}
 			}
@@ -67,12 +92,14 @@
  	}
  	.banner{
  		&__right--top{
+ 			margin-top: 30px;
+ 			height: 200px;
+
  			img{
- 				height: 200px;
- 				margin-top: 30px;
+ 				height: 100%;
  			}
  			&__content{
- 				transform: translate(55%, -309%);
+
  				p{
  					font-size: 11px;
  				}
@@ -82,8 +109,8 @@
  			}
  		}
  		&__right--bottom{
+ 			height: 200px;
  			&__content{
- 				    transform: translateY(-69%);
  				button{
  					transform: translate(0%, -75%);
 	 				height: 25px;
@@ -98,7 +125,7 @@
  				}
  			}
  			img{
- 				height: 200px;
+ 				height: 100%;
  			}
  		}
  		&__left{
@@ -128,12 +155,16 @@
 	    background: white;
 	    transform: translate(-25%,7%);
  	}
+ 	.event__image__image1__card {
+ 		border: none;
+ 	}
  	.footer{
- 		height: 820px;
+ 		height: 852px;
  		&__content{
  			&__left{
  				&__item{
  					transform: translate(0);
+ 					margin-bottom: 16px;
  				}
  			}
  			&__right{
@@ -165,27 +196,14 @@
  		}
  	}
 }
-@media screen and (min-width: 370px) {
-	.header__menu__logo img {
-	    transform: translate(66%, -18%);
-	}
-}
+
 @media screen and (min-width: 380px) {
 	.header__menu__item--heart {
     	margin-right: 10px;
 	}
 
 }
-@media screen and (min-width: 420px) {
-	.header__menu__logo img {
-	    transform: translate(83%, -18%);
-	}
-}
-@media screen and (min-width: 470px) {
-	.header__menu__logo img {
-	    transform: translate(100%, -18%);
-	}
-}
+
 @media screen and (min-width: 480px) {
 	.card-body a p {
 		width: 100%;
@@ -193,22 +211,13 @@
 	.header__menu__item a img {
     	width: 25px;
 	}
+	.main-content__product__top__responsive{
+		max-width: 50%;
+	}
 }
 
-@media screen and (min-width: 520px) {
-	.header__menu__logo img {
-	    transform: translate(118%, -18%);
-	}
-}
-@media screen and (min-width: 570px) {
-	.header__menu__logo img {
-	    transform: translate(126%, -18%);
-	}
-}
 @media screen and (min-width: 576px) {
-	.header__menu__logo img {
-	    transform: translate(126%, -18%);
-	}
+
 	.header__content__left p {
     width: 100%;
     font-size: 12px;
@@ -216,18 +225,12 @@
 	.banner{
 		&__right--bottom{
 			&__content{
-				transform: translate(-17%,-69%);
 				button{
 					transform: translate(0%,-47%);
 					height: 30px;
 					width: 80px;
 					font-size: 11px;
 				}
-			}
-		}
-		&__right--top{
-			&__content{
-				transform: translate(44%,-305%);
 			}
 		}
 		&__left{
@@ -245,21 +248,7 @@
 		}
 	}
 }
-@media screen and (min-width: 620px) {
-	.header__menu__logo img {
-	    transform: translate(143%, -18%);
-	}
-}
-@media screen and (min-width: 670px) {
-	.header__menu__logo img {
-	    transform: translate(164%, -18%);
-	}
-}
-@media screen and (min-width: 720px) {
-	.header__menu__logo img {
-	    transform: translate(175%, -18%);
-	}
-}
+
 @media screen and (min-width: 768px) {
 	.header__content__right ul li a {
      display: inline;
@@ -267,8 +256,12 @@
 	}
 	.banner{
 		&__right--top{
+			margin-top: 0;
+			height: 100%;
 			&__content{
-				transform: translate(31%,-204%);
+				h2{
+					font-size: 13px;
+				}
 			}
 		}
 		&__left{
@@ -279,19 +272,8 @@
 				}
 			}
 		}
-		&__right--top{
-			img{
-				height: 100%;
-    			margin-top: 0;
-			}
-		}
 		&__right--bottom{
-			&__content{
-				transform: translate(-18%,-75%);
-			}
-			img{
-				height: 100%;
-			}
+			height: 100%;
 		}
 	}
 	.owl-dots{
@@ -302,36 +284,8 @@
 	}
 
 }
-@media screen and (min-width: 770px) {
-	.header__menu__logo img {
-	    transform: translate(192%, -18%);
-	}
-}
-@media screen and (min-width: 820px) {
-	.header__menu__logo img {
-	    transform: translate(213%, -18%);
-	}
-}
-@media screen and (min-width: 870px) {
-	.header__menu__logo img {
-	    transform: translate(228%, -18%);
-	}
-	.banner__right--top__content {
-    		transform: translate(44%, -230%);
-	}
-}
-@media screen and (min-width: 920px) {
-	.header__menu__logo img {
-	    transform: translate(242%, -18%);
-	}
-}
+
 @media screen and (min-width: 970px) {
-	.header__menu__logo img {
-	    transform: translate(254%, -18%);
-	}
-	.banner__right--top__content {
-    		transform: translate(58%, -238%);
-	}
 	.banner__left__content p {
     		font-size: 30px;
 	}
@@ -359,7 +313,7 @@
 			&__logo{
 				img{
 					transform: translate(0,0);
-					width: unset;
+					width: 100%;
 					position: unset;
 				}
 				button{
@@ -383,17 +337,9 @@
 	}
 
 }
+
 @media screen and (min-width: 1020px) {
 	.banner__right--top__content {
-    	transform: translate(54%, -258%);
-	}
-	.banner__right--bottom__content {
-    	transform: translate(-18%, -40%);
-	}
-}
-@media screen and (min-width: 1020px) {
-	.banner__right--top__content {
-    	transform: translate(45%, -257%);
     	p{
     		font-size: 14px;
     	}
@@ -402,7 +348,7 @@
     	}
 	}
 	.banner__right--bottom__content {
-    	transform: translate(-18%, -40%);
+    
     	p{
     		font-size: 14px;
     	}
@@ -411,26 +357,7 @@
     	}
 	}
 }
-@media screen and (min-width: 1120px) {
-	.banner__right--top__content {
-    	transform: translate(59%, -257%);
-	}
-}
-@media screen and (min-width: 1170px) {
-	.banner__right--top__content {
-    	transform: translate(59%, -277%);
-	}
-}
-@media screen and (min-width: 1220px) {
-	.banner__right--top__content {
-    	transform: translate(59%, -273%);
-	}
-}
-@media screen and (min-width: 1270px) {
-	.banner__right--top__content {
-    	transform: translate(53%, -273%);
-	}
-}
+
 @media screen and (min-width: 1555px) {
 	.form-control{
 		display: none;
@@ -498,6 +425,7 @@
 			&__logo{
 				img{
 					padding: 0 0 0 15px;
+					width: unset;
 				}
 			}
 		}

@@ -113,6 +113,15 @@
   float: right;
   transform: translateX(-15px);
 }
+.header__menu__item a i {
+  font-size: 30px;
+  line-height: 22px;
+  color: #000000;
+  text-align: center;
+}
+.header__menu__item a .pe-7s-like {
+  margin-right: 27px;
+}
 .form-control {
   display: none;
 }
@@ -641,6 +650,9 @@
 .card-body a:hover h5 {
   color: #8c70ba;
 }
+.owl-theme .owl-dots .owl-dot {
+  outline: none;
+}
 @media (max-width: 1920px) {
   .container,
   .container-lg,
@@ -706,8 +718,8 @@
   .header__menu__item a {
     transform: translateX(0);
   }
-  .header__menu__item a img {
-    width: 19px;
+  .header__menu__item a i {
+    font-size: 19px;
   }
   .header__menu img {
     padding: 0;
@@ -805,9 +817,12 @@
   .car-body a p {
     width: 100%;
   }
+  .header__menu__item a .pe-7s-like {
+    margin-right: 0;
+  }
 }
 @media screen and (min-width: 380px) {
-  .header__menu__item--heart {
+  .header__menu__item a .pe-7s-like {
     margin-right: 10px;
   }
 }
@@ -815,8 +830,8 @@
   .card-body a p {
     width: 100%;
   }
-  .header__menu__item a img {
-    width: 25px;
+  .header__menu__item a i {
+    font-size: 25px;
   }
   .main-content__product__top__responsive {
     max-width: 50%;
@@ -947,10 +962,7 @@
     margin-right: 0;
   }
   .header__menu__item a {
-    transform: translateX(-15px);
-  }
-  .header__menu__item a img {
-    width: 100%;
+    transform: translate(-14px, 5px);
   }
   .header__menu__nav ul li {
     padding-left: 46px;

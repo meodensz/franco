@@ -964,6 +964,9 @@
   .header__menu__item a {
     transform: translate(-14px, 5px);
   }
+  .header__menu__item a i {
+    font-size: 30px;
+  }
   .header__menu__nav ul li {
     padding-left: 46px;
   }
@@ -982,6 +985,9 @@
   .header__menu__logo img {
     padding: 0 0 0 15px;
     width: unset;
+  }
+  .header__menu__item a .pe-7s-like {
+    margin-right: 27px;
   }
   .banner__right--top__content {
     transform: translate(30%, -249%);

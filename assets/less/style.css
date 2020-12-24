@@ -231,7 +231,6 @@
   color: #888888;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
-  margin-left: 17px;
 }
 .footer__content__right li a:hover {
   color: white;
@@ -268,6 +267,23 @@
   text-transform: capitalize;
   border-bottom: 1px solid #393939;
   height: 48px;
+}
+.current1 {
+  transform: translate(0px, 1px);
+}
+.current1 a {
+  margin-left: 14px;
+  letter-spacing: 0.1px;
+}
+.current2 a {
+  margin-left: 30px;
+  letter-spacing: 0.17px;
+}
+.current3 a {
+  margin-left: 19px;
+}
+.current4 a {
+  margin-left: 17px;
 }
 /*<-----------------------------------3.1 Home_page_content--------------------------------------------->*/
 @font-face {
@@ -618,6 +634,9 @@
 }
 .event-item {
   margin-bottom: 16px;
+}
+.item-heart {
+  padding-left: 10px;
 }
 .card-body {
   border-bottom: 1px solid #ededed;

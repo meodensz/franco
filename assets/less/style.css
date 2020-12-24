@@ -29,7 +29,7 @@
   margin-right: 30px;
   font-size: 14px;
   color: #525252;
-  font-family: "Font Awesome", sans-serif;
+  font-family: 'Font Awesome', sans-serif;
 }
 .header__content__right ul li {
   display: inline-block;
@@ -37,7 +37,7 @@
 .header__content__right ul li a {
   font-size: 15px;
   color: #525252;
-  font-family: "Font Awesome", sans-serif;
+  font-family: 'Font Awesome', sans-serif;
 }
 .header__content__right ul .memberlogin {
   transform: translateX(29px);
@@ -51,7 +51,7 @@
 .header__content__left p {
   font-size: 14px;
   color: #525252;
-  font-family: "Font Awesome", sans-serif;
+  font-family: 'Font Awesome', sans-serif;
   transform: translateX(15px);
   letter-spacing: 0.3px;
 }
@@ -180,7 +180,7 @@
   font-size: 16px;
   letter-spacing: 3px;
   color: #828282;
-  font-family: "Font Awesome", sans-serif;
+  font-family: 'Font Awesome', sans-serif;
   transform: translate(1px, 18px);
 }
 .footer__content__left__item a {
@@ -413,7 +413,7 @@
   transform: translate(-1px, -6px);
 }
 .main-content__title h2:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 50px;
   height: 52px;
@@ -559,7 +559,7 @@
   transform: translate(0, -10px);
 }
 .event__title h2:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 50px;
   height: 52px;
@@ -609,7 +609,7 @@
   text-align: center;
 }
 .event__image__image1__date:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 50px;
   height: 50px;
@@ -631,7 +631,7 @@
   font-size: 15px;
   line-height: 22px;
   color: #424242;
-  font-family: "Myriad Pro", sans-serif;
+  font-family: 'Myriad Pro', sans-serif;
   transform: translate(-3px, 4px);
   letter-spacing: 0.6px;
 }
@@ -640,7 +640,7 @@
   line-height: 20px;
   color: #000000;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: -0.39px;
   transform: translate(-2px, -3px);
 }
@@ -954,7 +954,7 @@
   .header__content__left p {
     font-size: 14px;
     color: #525252;
-    font-family: "Font Awesome", sans-serif;
+    font-family: 'Font Awesome', sans-serif;
     transform: translateX(15px);
     letter-spacing: 0.3px;
   }

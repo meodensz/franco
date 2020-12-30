@@ -166,6 +166,9 @@
   font-size: 20px;
   transform: translate(1px, -2px);
 }
+.footer__copyright__row__right p a i:hover {
+  color: white;
+}
 .footer__copyright__row__left a {
   color: #ffffff;
 }
@@ -183,14 +186,15 @@
   font-family: 'Font Awesome', sans-serif;
   transform: translate(1px, 18px);
 }
+.footer__content__left__item .footer__content__left__item--a {
+  margin-left: 0;
+}
 .footer__content__left__item a {
   color: #828282;
-}
-.footer__content__left__item i {
   margin-left: 22px;
 }
-.footer__content__left .fa-twitter {
-  margin-left: 0;
+.footer__content__left__item a i:hover {
+  color: white;
 }
 .footer__content__left p {
   font-size: 14px;
@@ -202,12 +206,6 @@
   width: 263px;
   height: 131px;
   letter-spacing: 0.27px;
-}
-.footer__content__left p a {
-  color: #888888;
-}
-.footer__content__left p a:hover {
-  color: white;
 }
 .footer__content__right {
   margin-left: 97px;
@@ -275,9 +273,8 @@
   margin-left: 14px;
   letter-spacing: 0.1px;
 }
-.current2 a {
+.current1 a span {
   margin-left: 30px;
-  letter-spacing: 0.17px;
 }
 .current3 a {
   margin-left: 19px;
@@ -316,6 +313,12 @@
   top: 126px;
   transform: translateY(-8%);
 }
+.banner__right--bottom__content div:hover {
+  background-color: #54397f;
+}
+.banner__right--bottom__content a {
+  text-decoration: none;
+}
 .banner__right--bottom__content p {
   font-size: 16px;
   letter-spacing: 3px;
@@ -332,7 +335,7 @@
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
-.banner__right--bottom__content button {
+.banner__right--bottom__content div {
   transform: translate(3%, -27%);
   border: 0px solid;
   background-color: #8262b5;
@@ -385,6 +388,12 @@
   left: 50%;
   transform: translate(-12%, 32%);
 }
+.banner__left__content div:hover {
+  background-color: #54397f;
+}
+.banner__left__content a {
+  text-decoration: none;
+}
 .banner__left__content p {
   font-size: 30px;
   color: #000000;
@@ -392,7 +401,7 @@
   font-family: 'Pacifico', cursive;
   letter-spacing: 0.1px;
 }
-.banner__left__content button {
+.banner__left__content div {
   transform: translate(201%, -17%);
   border: 0px solid;
   background-color: #8262b5;
@@ -456,6 +465,12 @@
   color: #999999;
   font-weight: 400;
 }
+.main-content__product__top a:hover p {
+  color: #8262b5;
+}
+.main-content__product__top a {
+  text-decoration: none;
+}
 .main-content__product__top p {
   font-size: 14px;
   line-height: 26px;
@@ -509,6 +524,12 @@
   text-decoration: line-through;
   color: #999999;
   font-weight: 400;
+}
+.main-content__product__bottom a:hover p {
+  color: #8262b5;
+}
+.main-content__product__bottom a {
+  text-decoration: none;
 }
 .main-content__product__bottom p {
   font-size: 14px;
@@ -594,11 +615,11 @@
 }
 .event__image__image1 a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   color: #c0c0c0;
 }
 .event__image__image1 a i {
-  font-size: 14px;
+  font-size: 15px;
   color: #c0c0c0;
   margin: 0 2px 0 20px;
 }
@@ -771,7 +792,7 @@
   .banner__right--bottom {
     height: 200px;
   }
-  .banner__right--bottom__content button {
+  .banner__right--bottom__content div {
     transform: translate(0%, -75%);
     height: 25px;
     width: 60px;
@@ -794,7 +815,7 @@
     font-weight: 700;
     letter-spacing: 0.1px;
   }
-  .banner__left__content button {
+  .banner__left__content div {
     transform: translate(161%, -17%);
     height: 25px;
     width: 60px;
@@ -861,7 +882,7 @@
     width: 100%;
     font-size: 12px;
   }
-  .banner__right--bottom__content button {
+  .banner__right--bottom__content div {
     transform: translate(0%, -47%);
     height: 30px;
     width: 80px;
@@ -870,7 +891,7 @@
   .banner__left__content p {
     font-size: 20px;
   }
-  .banner__left__content button {
+  .banner__left__content div {
     transform: translate(175%, -17%);
     height: 30px;
     width: 80px;
@@ -892,7 +913,7 @@
   .banner__left__content {
     transform: translate(-17%, 24%);
   }
-  .banner__left__content button {
+  .banner__left__content div {
     transform: translate(172%, -17%);
   }
   .banner__right--bottom {
@@ -904,12 +925,16 @@
   .footer {
     height: 500px;
   }
+  .form-control {
+    display: block;
+    margin-bottom: 10px;
+  }
 }
 @media screen and (min-width: 970px) {
   .banner__left__content p {
     font-size: 30px;
   }
-  .banner__left__content button {
+  .banner__left__content div {
     transform: translate(276%, -17%);
   }
 }
@@ -957,6 +982,11 @@
   }
   .banner__right--bottom__content h2 {
     font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form-control {
+    display: none;
   }
 }
 @media screen and (min-width: 1555px) {
@@ -1026,7 +1056,7 @@
   .banner__right--bottom__content h2 {
     font-size: 20px;
   }
-  .banner__right--bottom__content button {
+  .banner__right--bottom__content div {
     transform: translate(3%, -27%);
     height: 40px;
     width: 108px;
@@ -1039,31 +1069,31 @@
   .banner__left__content p {
     font-size: 30px;
   }
-  .banner__left__content button {
+  .banner__left__content div {
     transform: translate(201%, -17%);
     height: 40px;
     width: 106px;
     font-size: 14px;
   }
-  .footer__content__left__item {
-    transform: translate(1px, 18px);
+  .footer {
+    height: 417px;
   }
   .footer__content__right {
     margin-left: 97px;
   }
-  .footer {
-    height: 417px;
+  .footer__content__left__item {
+    transform: translate(1px, 18px);
   }
   .footer__copyright p {
     font-size: 14px;
+  }
+  .footer__copyright__row p i {
+    font-size: 20px;
   }
   .footer__copyright__row__right p {
     float: right;
     font-size: 20px;
     transform: translate(1px, -2px);
-  }
-  .footer__copyright__row p i {
-    font-size: 20px;
   }
   .card-body {
     margin-bottom: 13px;
